@@ -24,6 +24,14 @@
   .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
   }
+  .btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-weight: 600px;
+    border-radius: 8px;
+    border: none;
+  }
   
 
 /*header style */
@@ -62,6 +70,14 @@
 /*banner-relted-style*/
 
 .banner-content {
-  max-width: 1000px;
+  max-width: 850px;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-weight:700 ;
+  font-size:4rem ;
+ 
+ 
 }
