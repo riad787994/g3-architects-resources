@@ -81,3 +81,17 @@
  
  
 }
+.banner-image{
+  width: 100%;
+}
+/* responcive web site */
+
+@media screen and (max-width: 576px ) {
+  .navbar,.nav-link{
+    flex-direction: column;
+  }
+}
+ 
+  
+
+  
