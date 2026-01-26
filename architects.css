@@ -13,7 +13,7 @@
 .display-taxe {
   display: flex;
 }
-/* dark-3*/
+/* dark-2*/
 .text-gray {
   color: #424242;
 }
@@ -21,7 +21,9 @@
 .text-light-gray {
   color: #727272;
 }
-  
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
   
 
 /*header style */
@@ -30,18 +32,36 @@
 /*nav bar style*/
 
 .navbar{
-   display: flex;
+   justify-content: space-between;
+   align-items: center ;
 }
+
+.brand{
+  font-weight: 700;
+    font-size: 3rem;
+
+
+  }
 
 .nav-item {
   list-style: none;
   margin-right: 30px;
- 
+  }
 
-}
+  
+
 .nav-link {
   text-decoration:none;
   font-weight: 500;
+}
+.navbar,.banner{
+  max-width: 1400px;
+  margin: 0 auto;
 
-  
-} 
+}
+/*banner-relted-style*/
+
+.banner-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
