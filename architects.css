@@ -10,7 +10,7 @@
 }
 /*sheard style*/
 
-.display-taxe {
+.display-flex {
   display: flex;
 }
 /* dark-2*/
@@ -31,6 +31,13 @@
     font-weight: 600px;
     border-radius: 8px;
     border: none;
+  }
+  .main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .main > section{
+    margin-top: 130px;
   }
   
 
@@ -84,6 +91,27 @@
 .banner-image{
   width: 100%;
 }
+/* team and features related*/
+.teams {
+  
+  align-items: center;
+
+ 
+  
+ 
+ 
+}
+.team-images-container{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+
+}
+
+
+
 /* responcive web site */
 
 @media screen and (max-width: 576px ) {
