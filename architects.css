@@ -44,6 +44,10 @@
   .main > section{
     margin-top: 130px;
   }
+  .section-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
   
 
 /*header style */
@@ -122,12 +126,19 @@
 
 
 }
-.features-title{
-  font-size: 2.8rem;
-  font-weight: 700;
-}
+
 #quick list{
   font-weight: 500;
+}
+.some-facts { 
+  margin-left: 235px;
+  margin-top: 85px ;
+}
+
+.fatcs-card{
+   
+   border: 1px solid #FF900E;
+
 }
 
 
@@ -135,9 +146,29 @@
 /* responcive web site */
 
 @media screen and (max-width: 576px ) {
-  .navbar,.nav-link{
+  .navbar, 
+  .nav-link , 
+  .teams
+  {
     flex-direction: column;
   }
+  .team-images-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .our-features {
+    margin-left: 20px;
+  }
+
+}
+@media  screen and (max-width:576px) and (max-width:992px) {
+  .teams{
+    flex-direction: column;
+
+  }
+  .our-features{
+    margin: 50px auto;
+  }
+  
 }
  
   
