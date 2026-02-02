@@ -53,6 +53,7 @@
     max-width: 540px;
     margin: 50px auto;
     text-align: center;
+    margin-top: 180px;
     
   }
   .sponspors-compani{
@@ -133,7 +134,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   left: 30px; 
- justify-items: center;
+  justify-items: center;
   margin-left: 285px;
   margin-top: 85px;
 
@@ -148,6 +149,50 @@
 #quick list{
   font-weight: 500;
 }
+/*featchers styles */
+
+#featchers-section-taitle{
+  border-left: 5px solid #FF900E;
+  padding: 21px;
+
+}
+.featchers{
+  gap: 140px;
+  margin-left: 240px;
+  margin-top: 130px;
+}
+
+
+.featchers-card{
+   padding: 30px;
+  box-shadow:  0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.featchers-card, .featchers-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
+
+}
+#experience-badge {
+  padding: 45px 42px ;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+#featchers-architect img{
+  width: 100%;
+}
+
+
 .some-facts { 
   margin-left: 235px;
   margin-top: 85px ;
@@ -155,6 +200,7 @@
 .facts-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
 }
 
 .fatcs-card{
@@ -166,6 +212,7 @@
   border-radius: 8px;
   align-items: center;
   justify-content: center;
+  font-size: 30px;
    
 
 }
@@ -183,7 +230,20 @@
 .facts-description{
   max-width: 540px;
 }
+/*footre style*/
+.footer-text{
+  border: 1px solid rgba(255, 244, 231, 1);
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgba(255, 244, 231, 1);
+  margin-top: 130px;
+  margin-bottom: 240px;
+  padding: 38px 410px;
+  margin-left: 240px ;
+  margin-right:  240px; 
+  font-size: 20px;
 
+}
 
 
 /* responcive web site */
@@ -191,7 +251,8 @@
 @media screen and (max-width: 576px ) {
   .navbar, 
   .nav-link, 
-  .teams
+  .teams,
+  .featchers
   {
     flex-direction: column;
   }
@@ -214,16 +275,21 @@
 
 }
 @media  screen and (max-width:576px) and (max-width:992px) {
-  .teams{
+  .teams, .featchers{
     flex-direction: column;
 
   }
   .our-features{
     margin: 50px auto;
   }
-  .sponspors-compani, .facts-containers{
+  .sponspors-compani,
+   .facts-containers{
     display: grid;
     grid-template-columns: repeat(3, 1fr)
+  }
+  #experience-year{
+    margin-top: 20px;
+    margin-left: 20px;
   }
   
 }
